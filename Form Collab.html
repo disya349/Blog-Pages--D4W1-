@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Contact Me</title>
+    <link rel="stylesheet" href="assets/styling/styling.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="Dicki Card.html">
+            <div class="left-one">
+            <img src="https://ik.imagekit.io/disya349/Logo_DS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1657438025088" style="width: 80px;"></a>
+            <ul>
+                <li>
+                    <a class="active" href="Dicki Card.html">Home</a>
+                </li>
+                <li>
+                    <a href="Blog Pages.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-one">
+            <a href="Form Collab.html"><p>Contact Me</p></a>
+        </div>
+    </nav>
+    
+    <div style="
+    width:350px;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    ">
+    <h1 style="text-align:center">Please Fill The Form</h1>
+        <form>
+            <div>
+                <label for="name" style="font-size: 20px; font-weight: 700;" >Name</label>
+                <input id="name" type="text" required placeholder="Input your name" style="
+                width: 100%;
+                box-sizing:border-box;
+                padding: 8px;
+                background-color: gainsboro;
+                border: 1px solid grey;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                ">
+            </div>
+
+            <div>
+                <label for="email" style="font-size: 20px; font-weight: 700;">Email</label>
+                <input id="email" type="email" required placeholder="Insert your email" style="
+                width: 100%;
+                box-sizing:border-box;
+                padding: 8px;
+                background-color: gainsboro;
+                border: 1px solid grey;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                ">
+
+            </div>
+
+            <div>
+                <label for="telpon" style="font-size: 20px; font-weight: 700;">Number Phone</label>
+                <input id="telpon" type="text" required placeholder="Your phone" style="
+                width: 100%;
+                box-sizing:border-box;
+                padding: 8px;
+                background-color: gainsboro;
+                border: 1px solid grey;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                ">
+
+            </div>
+            
+            <div>
+                <label for="subject" style="font-size: 20px; font-weight: 700;">Subject</label>
+                <select id="subject" style="
+                width: 100%;
+                box-sizing:border-box;
+                padding: 8px;
+                background-color: gainsboro;
+                border: 1px solid grey;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                ">
+                    <option>Collaboration</option>
+                    <option>Consultation</option>
+                    <option selected>Invite Me</option>
+                </select>
+                
+            </div>
+            <div>
+                <label for="message" style="font-size: 20px; font-weight: 700;">Your Message</label>
+                <textarea id="message" cols="20" rows="10" style="
+                width: 100%;
+                box-sizing:border-box;
+                padding: 8px;
+                background-color: gainsboro;
+                border: 1px solid grey;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                "></textarea>
+
+            </div>
+            
+            <div>
+                <button type="button" onclick="getData()" style="
+                border: 1px;
+                padding: 10px;
+                background-color: grey;
+                border-radius: 15px;
+                cursor: pointer;
+                font-family: 'Poppins', sans-serif;
+                "
+                >Submit</button>
+                <button type="reset" style="
+                border: 1px;
+                padding: 10px;
+                background-color: grey;
+                border-radius: 15px;
+                cursor: pointer;
+                font-family: 'Poppins', sans-serif;"
+                >Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+<script src="assets/js/First.js"></script>
+
+</html>

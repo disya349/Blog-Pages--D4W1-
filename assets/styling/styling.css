@@ -1,0 +1,286 @@
+/* Whole Body */
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+/* Nav */
+nav {
+     background-color: rgba(116, 97, 97, 0.534);
+     display: flex;
+     height: 10vh;
+}
+ 
+nav div{
+     display: flex;
+     align-items: center;
+}
+ 
+nav .left-one {
+     flex: 50%;
+     padding-left: 90px;
+}
+ 
+nav .right-one {
+     flex: 50%;
+     justify-content: flex-end;
+     padding-right: 90px;
+}
+ 
+nav ul{
+     list-style: none;
+     margin-left: 30px;
+}
+ 
+nav ul li{
+     display: inline;
+     margin-right: 20px;
+}
+ 
+nav ul li a{
+     color: white;
+     text-decoration: none;
+     font-weight: 700px;
+}
+ 
+nav ul li a.active{
+     color: grey;
+}
+ 
+nav .right-one a{
+     color: white;
+     text-decoration: none;
+     font-size: 13px;
+     background-color: grey;
+     padding: 1px 10px;
+     border-radius: 10px;
+}
+
+/* Card */
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-1{
+    flex:30%;
+    padding-right: 10px;
+    background-color: aqua;
+}
+
+.left-1 p{
+    text-align: justify;
+    margin-bottom: 0px;
+    
+}
+
+.right-1{
+    flex:5%;
+    display: inline;
+}
+
+.right h3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.right p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.project{
+    border: 1px solid pink;
+    margin: auto;
+    margin-top: 50px;
+    width: 700px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px grey;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    flex:50%;
+    padding-right: 10px;
+}
+
+.left p{
+    text-align: justify;
+    padding-right: 15px;
+    margin-bottom: 0px;
+}
+
+.right{
+    flex:5%;
+    display: inline;
+    border: 1px solid mintcream;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px grey;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.right h3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.right p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* Blog */
+.blog-form {
+     padding: 50px 0;
+     display: flex;
+     justify-content: center;
+}
+ 
+.blog-form .form-container {
+     width: 500px;
+}
+ 
+.blog-form .form-container h1 {
+     text-align: center;
+     margin-bottom: 40px;
+}
+
+.form-container .date-project{
+    display: flex;
+}
+
+.form-container .date-project, .start-date{
+    padding-right: 5px;
+}
+
+.form-container .date-project, .end-date{
+    padding-left: 5px;
+}
+
+.form-container .skills{
+    display: flex;
+    width: 245px;
+}
+
+/* .form-container .skills .skills-left{
+    background-color: red;
+}
+
+.form-container .skills .skills-right{
+    background-color: blue;
+} */
+
+.blog-form form label {
+     font-size: 20px;
+     font-weight: 400;
+}
+
+.blog-form form input, textarea, select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+}
+ 
+.blog-form form textarea {
+     height: 250px;
+}
+ 
+.blog-form form .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+ 
+.blog-form form .input-blog-image-group label p {
+     font-size: 15px;
+}
+ 
+.blog-form form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.blog-form form .button-group {
+    text-align: right;
+}
+ 
+.blog-form form button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background: gray;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+ 
+.blog hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+/* Blog Detail */
+.blog-detail {
+    display: flex;
+    justify-content: center;
+}
+ 
+.blog-detail-container {
+    width: 70%;
+    margin: 40px 0;
+}
+ 
+.blog-detail-container img {
+    width: 100%;
+}
+ 
+.blog-detail-container h1 {
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ 
+.blog-detail-container .author {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+ 
+.blog-detail-container p {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: justify;
+}
